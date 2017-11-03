@@ -9,9 +9,8 @@ import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.ui.ApplicationFrame;
 
 public class HistogramDisplay <T> extends ApplicationFrame {
-    
     private final Histogram<T> histogram;
-    
+   
     public HistogramDisplay(Histogram<T> histogram) {
         super("Histograma");
         this.histogram = histogram;

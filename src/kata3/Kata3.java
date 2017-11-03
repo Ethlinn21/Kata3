@@ -8,8 +8,7 @@ public class Kata3 {
         histogram.increment("ull.es",8);
         histogram.increment("hotmail.com",2);
         histogram.increment("google.com",10);
-        new HistogramDisplay(histogram).execute();
-        
+        new HistogramDisplay(histogram).execute(); 
     }
     
 }
